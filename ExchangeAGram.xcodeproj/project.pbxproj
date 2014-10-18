@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FC377B719F225F0002E648E /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC377B619F225F0002E648E /* FeedItem.swift */; };
 		8FE588E219EE132F00BC44F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE588E119EE132F00BC44F8 /* AppDelegate.swift */; };
 		8FE588E519EE133000BC44F8 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FE588E319EE133000BC44F8 /* ExchangeAGram.xcdatamodeld */; };
 		8FE588EA19EE133000BC44F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE588E819EE133000BC44F8 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FC377B619F225F0002E648E /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		8FE588DC19EE132F00BC44F8 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE588E019EE132F00BC44F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FE588E119EE132F00BC44F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				8FE588EB19EE133000BC44F8 /* Images.xcassets */,
 				8FE588ED19EE133000BC44F8 /* LaunchScreen.xib */,
 				8FE588E319EE133000BC44F8 /* ExchangeAGram.xcdatamodeld */,
+				8FC377B619F225F0002E648E /* FeedItem.swift */,
 				8FE588DF19EE132F00BC44F8 /* Supporting Files */,
 			);
 			path = ExchangeAGram;
@@ -225,6 +228,7 @@
 				8FE588E219EE132F00BC44F8 /* AppDelegate.swift in Sources */,
 				8FE5890719EE18F200BC44F8 /* FeedCell.swift in Sources */,
 				8FE5890519EE158E00BC44F8 /* FeedViewController.swift in Sources */,
+				8FC377B719F225F0002E648E /* FeedItem.swift in Sources */,
 				8FE588E519EE133000BC44F8 /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				8FE5890019EE133000BC44F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FE5890119EE133000BC44F8 /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				8FE5890319EE133000BC44F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
